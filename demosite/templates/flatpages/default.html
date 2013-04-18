@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  {% block styles %}
+  <link rel="stylesheet" href="{{ STATIC_URL }}style.css">
+  <title>{{ flatpage.title }}</title>
+ </head>
+ <body>
+   {{ flatpage.content }}
+ </body>
+</html>
